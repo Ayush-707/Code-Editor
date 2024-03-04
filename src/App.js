@@ -126,6 +126,7 @@ function App() {
 				userLang={language} setUserLang={setLanguage}
 				userTheme={userTheme} setUserTheme={setUserTheme}
 				fontSize={fontSize} setFontSize={setFontSize}
+				code={code}
 			/>
 			<div className="main">
 				<div className="left-container">
