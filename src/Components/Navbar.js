@@ -5,7 +5,7 @@ import { languageOptions } from '../languageOptions';
 
 const Navbar = ({ userLang: language, setUserLang: setLanguage, userTheme,
 	setUserTheme, fontSize, setFontSize, code }) => {
-	setUserTheme, fontSize, setFontSize, code }) => {
+	
 	const languages = languageOptions;
 	const themes = [
 		{ value: "vs-dark", label: "Dark" },
